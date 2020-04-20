@@ -1,0 +1,311 @@
+<resources>
+    <string name="app_name">GPSNavi</string>
+    <!-- <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>-->
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="customer_login_txt">Customer Login</string>
+    <string name="in_celsius">in Celsius</string>
+    <string name="chillar_1">Chillar-1</string>
+    <string name="thermostat">Thermostat</string>
+    <string name="single_phasing">Single Phasing</string>
+    <string name="low_pressure">Low Pressure</string>
+    <string name="high_pressure">High Pressure</string>
+    <string name="compressor_olr">Compressor OLR</string>
+    <string name="primary_pump_olr">Primary Pump OLR</string>
+    <string name="icon_heart">&#xf004;</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password_txt">Forgot Password?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_in">Already have an account?</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="date_txt">Date</string>
+    <string name="submit">Submit</string>
+    <string name="smile">\ue9e1</string>
+    <string name="icon_prefix">&#92;u</string>
+    <string name="icon_high_voltage">\ue902</string>
+    <string name="http_error">http error</string>
+    <string name="error_connecting_error">error connecting server</string>
+    <string name="error_passing_data">error passing data</string>
+    <string name="error_unexpected">unexpected error</string>
+    <string name="check_internet_connection">Check Internet Connection</string>
+    <string name="retry">Retry</string>
+    <string name="history">History</string>
+    <string name="time_txt">Time</string>
+    <string name="time_txt_caps">TIME</string>
+    <string name="value_txt">Value</string>
+    <string name="refresh">Refresh</string>
+    <string name="dummy_device_num">TFJKKK000000000000</string>
+    <string name="dummy_date">Nov-2018</string>
+    <string name="loading">Loading...</string>
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <string name="closedrawer">closedrawer</string>
+    <string name="opendrawer">opendrawer</string>
+    <string name="server_error">Error connecting server</string>
+    <string name="get_data">Get Data</string>
+    <string name="search_txt">Search</string>
+    <string name="last_sync">Last sync:</string>
+    <string name="txt_copyright">by Techuva Solutions Pvt. Ltd.</string>
+    <string name="email_id">Email ID</string>
+    <string name="click_here_forgot_password">Click Here</string>
+    <string name="error_connecting_server">Error connecting server</string>
+    <string name="btn_prev">Previous</string>
+    <string name="next">Next</string>
+    <string name="data_not_found">Data not available</string>
+    <string-array name="navdraweritemsafterlogin">
+        <item>Home</item>
+        <item>Devices</item>
+        <item>Device History</item>
+        <item>Manage Threshold</item>
+        <!--<item>Forewarning Details</item>
+        <item>Terms &amp; Conditions</item>
+        <item>Privacy Policy</item>
+        <item>IOT Products</item>
+        <item>Report Issue</item>-->
+        <item>Logout</item>
+    </string-array>
+
+    <!--Side panel item name string array after login-->
+    <string-array name="navdraweritemsbeforelogin">
+        <item>Devices</item>
+        <item>Device History</item>
+        <item>Manage Threshold</item>
+        <item>About App</item>
+        <item>Terms and Conditions</item>
+        <item>Logout</item>
+    </string-array>
+    <string name="title_activity_user_accounts">Techuva IoT</string>
+    <string name="login_success">You have successfully logged in!</string>
+    <string name="account_confirmation">Your email is linked with multiple accounts, so you have to choose the account before you proceed!</string>
+    <string name="account_confirmation2">so you have to choose the Account before you Proceed!</string>
+    <string name="txt_continue">Continue</string>
+    <string name="select_device">Please select a default device.</string>
+    <string name="default_device_select">Do you want to set this device as default?</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="permission_necessary">Permission Requested</string>
+    <string name="storage_permission_is_encessary_to_wrote_event">Please provide the storage permission..</string>
+    <string name="yes">Yes</string>
+    <string name="enter_email">Please enter Email Id</string>
+    <string name="enter_reg_email">Please enter registered Email Id</string>
+    <string name="alert">Alert</string>
+    <string name="success">Success</string>
+    <string name="title_activity_data_graph">DataGraphActivity</string>
+    <string name="graph">Graph</string>
+    <string name="nodata">No data found for selected date.</string>
+    <string name="forwarning">Forwarning</string>
+    <string name="token_expire">Session Expired/ Invalid Access</string>
+    <string name="to_re_login">to Re-login</string>
+    <string name="consumed_units">Consumed Units :</string>
+    <string name="units">Units</string>
+    <string name="kwh">KWH</string>
+    <string name="current_minimum">Current Minimum</string>
+    <string name="current_maximum">Current Maximum</string>
+    <string name="set_minimum">Set Min</string>
+    <string name="set_maximum">Set Max</string>
+    <string name="set_threshold">Update</string>
+    <string name="na">-NA-</string>
+    <string name="notification">Notification</string>
+    <string name="channel_label">Channel Label</string>
+    <string name="notifications">Notifications</string>
+    <string name="zero">00</string>
+    <string name="channel_id">Channel Number</string>
+    <string name="channel">Channel</string>
+    <string name="label">Label</string>
+    <string name="add_threshold">Add Threshold</string>
+    <string name="select_channel">Select channel</string>
+    <string name="threshold_name">Threshold Name</string>
+    <string name="threshold_value">Threshold Value</string>
+    <string name="save">Save</string>
+    <string name="new_threshold">New Threshold</string>
+    <string name="close">Close</string>
+    <string name="threshold_history">Threshold History</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="auto_semi_mode">Auto/Semi Mode</string>
+    <string name="manual_mode">Manual Mode</string>
+    <string name="last_sync_">Last Sync</string>
+    <string name="provisioned">Provisioned</string>
+    <string name="label_name">Label_name</string>
+    <string name="received_at">Received \nat</string>
+    <string name="minute_flow">Minute Flow</string>
+    <string name="hourly_flow">Hourly Flow</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="contact">Contact Number</string>
+    <string name="running">Running</string>
+    <string name="idle">Idle</string>
+    <string name="offline">Offline</string>
+    <string name="tag">TAG</string>
+    <string name="current_nlocation">Current \nLocation</string>
+    <string name="travel_summary">Travel \nSummary</string>
+    <string name="travel_history">Travel \nHistory</string>
+    <string name="vehicle_details">Vehicle \nDetails</string>
+    <string name="driver_name">Driver: </string>
+    <string name="total_distance">Total Travelled: </string>
+    <string name="location_n_lat_long">Location \nLat/Long</string>
+    <string name="distance_nkms">Distance \nKms</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="distance_travelled">Distance Travelled</string>
+    <string name="total_distance_txt">Total Distance Travelled :</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up.</string>
+    <string name="last_login">Last Logged on :</string>
+    <string name="drivers">Drivers</string>
+    <string name="devices">Devices</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="about_app">About App</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="click_here">Click here</string>
+    <string name="login_">Log In.</string>
+    <string name="tracking_summary">Tracking Summary</string>
+    <string name="techuva">Techuva</string>
+    <string name="received_at_">Received at :</string>
+    <string name="your_password_reset_link">Your Password reset Link</string>
+    <string name="is_sent_to_email_id">is sent to your Registered Email ID</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="hurrah">Hurrah !</string>
+    <string name="oops">Oops !</string>
+    <string name="invalid_username">Invalid Username</string>
+    <string name="provide_valid_user">Kindly provide Valid Username</string>
+    <string name="exit_text">Press back again to exit GPSNavi</string>
+    <string name="app_version_txt">App Version</string>
+    <string name="app_version">v1.01</string>
+    <string name="dummy_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="driver_nallocation">Driver \nAllocation</string>
+    <string name="device_allocation">Device \nAllocation</string>
+    <string name="today_distance">Today Travelled</string>
+    <string name="total_travelled">Total Travelled</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_txt">No</string>
+    <string name="deallocate">Deallocate</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="vehicle_num">Vehicle No.:</string>
+    <string name="driver_name_">Driver Name:</string>
+    <string name="device_deallocation_text">Are you sure, You want to Deallocate the Device from the Vehicle?</string>
+    <string name="driver_deallocation_text">Are you sure, You want to Deallocate the Driver from the Vehicle?</string>
+    <string name="device_serial_num">Device Serial:</string>
+    <string name="remarks">Remarks</string>
+    <string name="allocated_on">Allocated on:</string>
+    <string name="device_serial">Device Serial:</string>
+    <string name="device_serial_no">Device \nSerial No.</string>
+    <string name="allocated_on_">Allocated \non</string>
+    <string name="allocated_by">Allocated \nby</string>
+    <string name="driver_allocation_history">Driver Allocation History</string>
+    <string name="device_allocation_history">Device Allocation History</string>
+    <string name="end_of_list">You are at the end of the list</string>
+    <string name="enter_remarks">Enter Remarks</string>
+    <string name="choose_device">Choose Device</string>
+    <string name="device_allocation_">Device Allocation</string>
+    <string name="clear">Clear</string>
+    <string name="alloacte">Allocate</string>
+    <string name="driver_allocation">Driver Allocation</string>
+    <string name="choose_driver">Choose Driver</string>
+    <string name="t_and_c">\n● Customers are responsible for protecting the Account information and login credentials. We are wholly not answerable for any misuse or loss of data due to improper handling of credentials. You should ensure that the information within the website is not used for any act prohibited by conditions and notices.
+
+\n\n● Customers should agree for the  <b>GPSNavi</b> to collect the location information using the technologies implemented by Techuva Solutions Pvt Ltd. Techuva is not accountable for any data shared to or from the third party application.
+
+\n\n● Minimum age of the user should be 18 years for holding the right to monitor location using a tracking application.
+
+\n\n● If any amendments are made to the current agreement then the customers should respond to it within specified time, else the company will have complete rights to make decisions on alteration, continuity or termination of agreement.
+
+\n\n\nAll rights are reserved for web content and images. Copyright © 2016, Techuva Solutions Pvt Ltd.</string>
+    <string name="about_app_content">
+        <b>What is Techuva’s GPSNavi</b>\n\n\n
+
+        <b>“Acquire Travel updates with our Mobile Apps, to make good time”</b>\n\n
+
+<p>
+   The GPS vehicle monitoring system is widely used across the
+    realm with the present demanding conditions in any field.
+    In account with the current usage statistics and to enhance access
+    flexibility, Techuva extended Vehicle Monitoring service to the mobile
+    application with an easy installation process. The measurement of speed,
+    time and geofencing are the core features of our <b>GPSNavi</b>. The mobile tracking system
+    demonstrates most of our web application features enabling the user to quickly view, add,
+    modify the details of any vehicle, driver, view location and check the status of transportation
+    without affecting the performance in any aspect. This application will come in hand for not only
+    large fleet management but also small
+    scale firms whose business requires frequent travelling.  </p>
+<p>
+    \n\nHere are the features of  <b>GPSNavi</b>:\n\n
+
+● Generates transport summary\n\n
+
+● Generates vehicle details\n\n
+
+● Shows the current location\n\n
+
+● Allocating driver to the vehicle\n\n
+
+● Allocating device to the vehicle\n\n
+
+● Generates driver allocation history\n\n
+
+● Generates device allocation history\n\n
+
+● Reallocating driver\n\n
+
+● Reallocating device\n\n
+
+● Deallocating driver\n\n
+
+● Deallocating device\n
+</p>
+    </string>
+    <string name="customer_sign_up">Customer Sign-up</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="device_serial_">Device Serial</string>
+    <string name="reg_code">Register Code</string>
+    <string name="sign_up_">Sign Up</string>
+    <string name="driver_re_allocation">Driver Re-Allocation</string>
+    <string name="device_re_allocation_">Device Re-Allocation</string>
+    <string name="re_allocate">Re-Allocate</string>
+    <string name="un_allocated">Un-Allocated</string>
+    <string name="today_travelled">Today Travelled</string>
+    <string name="no_internet_connection">No Internet Connection!</string>
+    <string name="privacy_policy_txt">
+    ● We ensure that the information utilized by <b>GpsNavi</b> will not be exploited unless the user mishandles the login credentials where in such case, the user is completely responsible for any misuse of data.
+
+\n\n● This policy is applicable only for the online users with respect to the information they store and retrieve using our website and strictly not related to that of any offline and third party.
+
+\n\n● The <b>GpsNavi</b> will generate a new session id for every login. So, even if the track details are available, the previously logged in user cannot be identified and so the personal information is safe.
+
+\n\n● The information collected by cookies is useful for us in improving the website, checking the flow of data traffic and getting the details of frequent Users (such as Drivers/Customers), Locations, Routes, etc.
+
+\n\n● We assure a highly secured functioning by manipulating the data acquired through this website to find fraud and hinder malfunctions.
+
+\n\n If you have any more queries about our Privacy and Policy, please contact the concerned person at Techuva Solutions, who is assigned for <b>GpsNavi</b> support.</string>
+    <string name="location_not_found">Unable to find current location.</string>
+
+    <string name="text_splash_copy_right" translatable="false">\u00a9 2020 Techuva Solutions Pvt. Ltd.</string>
+    <string name="copy_right" translatable="false">All rights reserved.</string>
+
+</resources>
+

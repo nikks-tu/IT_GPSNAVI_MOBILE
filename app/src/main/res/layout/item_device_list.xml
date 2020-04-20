@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="@dimen/large_view_margin"
+    android:layout_marginLeft="@dimen/large_view_margin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_five"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin_five"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="@dimen/circle_iv_h_w"
+                android:layout_height="@dimen/circle_iv_h_w"
+                android:gravity="center"
+                android:id="@+id/iv_device"
+                android:textColor="@color/white"
+                android:textSize="@dimen/activity_textSize_small_16"
+                android:layout_margin="@dimen/margin_five"
+                app:srcCompat="@drawable/device"
+                android:paddingTop="@dimen/margin_five"
+                android:tint="@color/black"
+                android:paddingBottom="@dimen/margin_five"
+                />
+        </LinearLayout>
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_weight="6"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:id="@+id/ll_tag"
+             android:gravity="center_vertical">
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/app_name"
+                 android:id="@+id/tv_tag_name"
+                 android:layout_margin="@dimen/margin_two"
+                 android:textSize="@dimen/activity_textSize_small"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/app_name"
+                 android:id="@+id/tv_serial_num"
+                 android:layout_margin="@dimen/margin_two"
+                 android:textSize="@dimen/activity_textSize_small"/>
+         </LinearLayout>
+
+
+        <RadioButton
+            android:layout_width="20dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            style="@style/MyRadioButtonStyle"
+            android:id="@+id/rb_accountUsed"
+            android:gravity="center"
+            android:layout_gravity="end|center"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_one"
+        android:background="@color/text_color_light_op"/>
+
+</LinearLayout>

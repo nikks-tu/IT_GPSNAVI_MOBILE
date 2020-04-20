@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PrivacyPolicy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/large_image_height_width"
+        android:layout_marginTop="@dimen/large_view_margin"
+        android:id="@+id/sv_main"
+        android:layout_marginLeft="@dimen/view_margin"
+        android:layout_marginRight="@dimen/view_margin">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_policy"
+            android:text="@string/privacy_policy_txt"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/activity_textSize_small"/>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/elarge_view_margin"
+        android:layout_marginBottom="@dimen/large_view_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="from"
+            android:textSize="@dimen/activity_textSize_x_large"
+            android:id="@+id/tv_from"
+            android:textColor="@color/dark_gray_op"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tech"
+                android:textSize="@dimen/activity_navigation_large"
+                android:id="@+id/tv_tech"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="uva"
+                android:textSize="@dimen/activity_navigation_large"
+                android:id="@+id/tv_uva"
+                android:textColor="@color/dark_gray"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

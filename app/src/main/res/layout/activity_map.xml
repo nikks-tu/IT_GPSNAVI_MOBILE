@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.MapActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/toolbar_layout"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ll_back_btn">
+            <ImageView
+                android:layout_width="@dimen/activity_profile_margin"
+                android:layout_height="@dimen/activity_profile_margin"
+                android:src="@drawable/back"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/iv_back_btn"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/view_margin"
+                android:layout_marginLeft="@dimen/view_margin"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:visibility="visible"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_title"
+                android:textSize="25sp"/>
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        <ImageView
+            android:layout_width="@dimen/x_large_view_margin"
+            android:layout_height="match_parent"
+            android:src="@drawable/refresh_button"
+            android:tint="@color/white"
+            android:padding="@dimen/margin_five"
+            android:gravity="end"
+            android:visibility="visible"
+            android:id="@+id/iv_refresh"
+            android:layout_margin="@dimen/margin_two"
+            android:contentDescription="@string/app_name"/>
+
+    </LinearLayout>
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="end|center"
+           android:id="@+id/cv_year"
+           android:layout_marginTop="@dimen/view_margin"
+           android:layout_marginBottom="@dimen/view_margin"
+           android:layout_marginLeft="@dimen/view_margin"
+           android:layout_marginRight="@dimen/view_margin"
+           android:elevation="@dimen/margin_two"
+           app:cardElevation="10dp"
+           tools:targetApi="lollipop"
+           android:background="@color/colorPrimary">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_margin="@dimen/margin_two">
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Vehicle No."
+                       android:id="@+id/tv_vehicle_num"
+                       android:textColor="@color/text_color_light"
+                       android:padding="@dimen/margin_two"
+                       android:textSize="@dimen/activity_textSize_small"/>
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1.5"
+                       android:text="@string/received_at_"
+                       android:textColor="@color/text_color_light"
+                       android:padding="@dimen/margin_two"
+                       android:gravity="end"
+                       android:id="@+id/tv_received_time_txt"
+                       android:textSize="@dimen/activity_textSize_small"/>
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_margin="@dimen/margin_two">
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Vehicle No."
+                       android:id="@+id/tv_vehicle_reg_num"
+                       android:textColor="@color/text_color_light"
+                       android:padding="@dimen/margin_two"
+                       android:textSize="@dimen/activity_textSize_small"/>
+
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1.5"
+                       android:text=""
+                       android:textColor="@color/text_color_light"
+                       android:padding="@dimen/margin_two"
+                       android:gravity="end"
+                       android:id="@+id/tv_received_time"
+                       android:textSize="@dimen/activity_textSize_small"/>
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_margin="@dimen/margin_two">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1.5"
+                       android:text="Address:"
+                       android:textColor="@color/text_color_light"
+                       android:padding="@dimen/margin_two"
+                       android:gravity="start"
+                       android:id="@+id/tv_address_txt"
+                       android:textSize="@dimen/activity_textSize_small"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1.5"
+                       android:text=""
+                       android:textColor="@color/text_color_light"
+                       android:padding="@dimen/margin_two"
+                       android:gravity="start"
+                       android:id="@+id/tv_address"
+                       android:textSize="@dimen/activity_textSize_small"/>
+               </LinearLayout>
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <androidx.fragment.app.FragmentContainerView
+           android:name="com.google.android.gms.maps.SupportMapFragment"
+           android:id="@+id/map"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+   </FrameLayout>
+</LinearLayout>
